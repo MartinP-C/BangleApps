@@ -42,9 +42,10 @@
         };
       default:
         return {
+          titleBgColor: event.src ==='WhatsApp' ? '#00ff00' : '#0000ff',
           id: event.id,
           title: event.title,
-          body: `${event.src} ${event.body}`
+          body: `${event.src}: ${event.title}`,
         };
     }
   }
