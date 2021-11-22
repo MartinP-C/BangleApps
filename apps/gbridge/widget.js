@@ -44,7 +44,7 @@
         return {
           id: event.id,
           title: event.title,
-          body: `test ${event.body}`
+          body: `${event.src} ${event.body}`
         };
     }
   }
